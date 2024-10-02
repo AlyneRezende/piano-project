@@ -108,12 +108,17 @@ header .column span {
     text-align: center;
 }
 
-.piano-keys .white:active {
+.piano-keys .white.active {
     box-shadow: inset -5px 5px 20px rgba(0, 0, 0, 0.3);
     background: linear-gradient(to bottom #ffffff, #eeeeee);
 }
 
-.piano-keys .black:active {
+.piano-keys .black.active {
     box-shadow: inset -5px 5px 10px rgba(0, 0, 0, 0.3);
     background: linear-gradient(to bottom #eeeeee, #ffffff);
+}
+
+
+.piano-keys .key.hide span {
+    display: none;
 }
